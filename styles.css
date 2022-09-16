@@ -80,7 +80,7 @@ nav img {
 
 .text-box p {
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -252,11 +252,12 @@ h3 {
 
 .garantia-col p {
   padding: 0;
+  text-align: center;
 }
 .garantia-col h3 {
   margin-top: 16px;
   margin-bottom: 15px;
-  text-align: left;
+  text-align: center;
 }
 .testimonials {
   width: 80%;
