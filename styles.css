@@ -1,8 +1,9 @@
+/* ESTILOS GENERALES QUE SE APLICAN A TODA LA PAGINA*/
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
-  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif; /*USANDO UNA FUENTE DE GOOGLE FONTS*/
+  scroll-behavior: smooth; /* SCROLL DE LA PAGINA*/
 }
 
 .header {
@@ -14,17 +15,19 @@
   background-size: cover;
   position: relative;
 }
+/*MENU DE NAVEGACION*/
+
 nav {
   display: flex;
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
 }
-
+/*TAMAÑO DE IMAGEN*/
 nav img {
   width: 220px;
 }
-
+/*PARA COLOCAR EL LOGO AL MEDIO EN MODO RESPONSIVE*/
 @media (max-width: 700px) {
   nav img {
     width: 220px;
@@ -32,18 +35,20 @@ nav img {
     left: 20%;
   }
 }
-
+/*MENU DE NAVEGACION*/
 .nav-links {
   flex: 1;
   text-align: right;
 }
+/*MODIFICANDO LOS ELEMENTOS DEL MENU DE NAVEGACION*/
 .nav-links ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
-  position: relative;
+  list-style: none; /*quita el estilo de lista*/
+  display: inline-block; /* los elementos en linea*/
+  padding: 8px 12px; /*posicionamiento del texto*/
+  position: relative; /* mantiene su posicion*/
 }
 
+/*MODIFICANDO EL */
 .nav-links ul li a {
   color: #fff;
   text-decoration: none;
@@ -133,15 +138,17 @@ nav .fa {
   }
 }
 
+/*servicios*/
+
 .servicio {
-  width: 80%;
+  width: 80%; /*ANCHO QUE VA TENER EL DIV*/
   margin: auto;
-  text-align: center;
-  padding-top: 100px;
+  text-align: center; /*CENTRAR TEXTO*/
+  padding-top: 100px; /* PADDING TOP */
 }
 h1 {
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 36px; /*TAMAÑO*/
+  font-weight: 600; /*PESO DE LA LETRA*/
 }
 p {
   color: #777;
@@ -346,20 +353,20 @@ h3 {
   color: #f44336;
 }
 
-/*-- Nosotros page --*/
+/*-- Nosotros pagina --*/
 
 .sub-header {
-  height: 50vh;
-  width: 100%;
+  height: 50vh; /* TAMAÑO DE LA IMAGEN QUE SE MUESTRA*/
+  width: 100%; /*ANCO COMPLETO*/
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(img/background-2.png);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
+    url(img/background-2.png); /*IMAGEN*/
+  background-position: center; /* posiciomaniento de imagen*/
+  background-size: cover; /* IMAGEN SIZE*/
+  text-align: center; /*CENTAR TEXTO*/
+  color: #fff; /* COLOR TEXTO*/
 }
 .sub-header h1 {
-  margin-top: 100px;
+  margin-top: 100px; /*MARGEN*/
 }
 
 .about-us {
